@@ -42,7 +42,7 @@
 - установить **Docker** 
 - запустить контейнер с ОС **Android** ([butomo1989/docker-android-x86-7.1.1](https://github.com/budtmo/docker-android)) командой:
 `docker run --rm --privileged -d --name android -v andy.apk:/root/andy.apk -p 6080:6080 -p 4723:4723 -p 5554:5554 -p 5555:5555 -e DEVICE="Samsung Galaxy S6" -e APPIUM_HOST="127.0.0.1" -e APPIUM_PORT=4723 butomo1989/docker-android-x86-7.1.1` 
-- выполнить команду в терминале:  
+- запустить тесты командой: 
 `mvn clean test`
 
 ## Пример прогона автотеста
