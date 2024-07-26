@@ -4,7 +4,7 @@
 
 ## Технологии и иструменты
 
-Автотесты написаны на языке `Java` с использованием `JUnit 5`, `Android Driver`, `Appium`, `Appium Inspector`. Сборщик
+Автотесты написаны на языке `Java` с использованием `JUnit 5`, `Android`, `Appium`, `Appium Inspector`. Сборщик
 проекта - `Maven`.
 <p align="center">
     <a href="https://www.java.com/">
