@@ -21,7 +21,7 @@ public class SelenideWebDriver implements WebDriverProvider {
     options.setPlatformName(System.getProperty("platformName", "Android"));
     options.setDeviceName(System.getProperty("deviceName", "Samsung Galaxy S6"));
     options.setPlatformVersion(System.getProperty("platformVersion", "7.1.1"));
-    options.setApp("C:\\Users\\97253\\Documents\\OTUS\\projects\\otus_mobile\\src\\main\\resources\\andy.apk");
+    options.setApp("src/main/resources/andy.apk");
     
     try {
       return new AndroidDriver(new URL("http://192.168.88.208:4723/wd/hub"), options);
